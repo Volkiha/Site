@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(252, 252, 252);
+    text-align: center;
+    max-width: 300px; /* Definindo a largura máxima da div */
+    text-decoration: none; /* Removendo o sublinhado padrão dos links */
+}
+
+.icon-border {
+    position: relative;
+    border-radius: 50%;
+    transition: border-color 0.3s ease, top 0.3s ease;
+}
+
+.icon-border:hover {
+    border-color: gold;
+    top: -5px; /* Desloca o ícone para cima */
+}
+
+.icon-border:hover .fa-solid {
+    color: white; /* Altera a cor do ícone para branco */
+}
+footer{
+    position: relative;
+}
+img{
+    position: absolute;
+    right: 0;
+    bottom: 10;
+    width: 250px;
+    height: 150px;
+}
+p{
+    margin: 0px 0px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+#dataHora{
+   position: fixed;
+   top:10px;
+   right: 10px;
+   font-size: 18px;
+   color: #333;
+}
